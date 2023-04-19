@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 45
+  controlID: 50
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 605
     height: 1307
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 46
+  controlID: 51
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 47
+  controlID: 52
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   - {fileID: 17}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -334,7 +334,8 @@ MonoBehaviour:
     },\n        {\n            \"m_Id\": \"dad8aecc22354286942c556379a5f4d9\"\n       
     },\n        {\n            \"m_Id\": \"9a166263fdaf491381fff66030b36947\"\n       
     }\n    ],\n    \"m_GroupDatas\": [],\n    \"m_StickyNoteDatas\": [\n        {\n           
-    \"m_Id\": \"86b4d3e863ac4583a33aa2683243b1f2\"\n        }\n    ],\n    \"m_Edges\":
+    \"m_Id\": \"86b4d3e863ac4583a33aa2683243b1f2\"\n        },\n        {\n           
+    \"m_Id\": \"a56148b6ee324eb38e8625d3e2325cd4\"\n        }\n    ],\n    \"m_Edges\":
     [\n        {\n            \"m_OutputSlot\": {\n                \"m_Node\": {\n                   
     \"m_Id\": \"3b61dfb5bacd47b8891154ee21b0d23f\"\n                },\n               
     \"m_SlotId\": 2\n            },\n            \"m_InputSlot\": {\n               
@@ -693,7 +694,15 @@ MonoBehaviour:
     }\n    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
     true,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\":
     []\n    },\n    \"m_SerializedDescriptor\": \"SurfaceDescription.Occlusion\"\n}\n\n{\n   
-    \"m_SGVersion\": 1,\n    \"m_Type\": \"UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty\",\n   
+    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.StickyNoteData\",\n   
+    \"m_ObjectId\": \"a56148b6ee324eb38e8625d3e2325cd4\",\n    \"m_Title\": \"New
+    Note\",\n    \"m_Content\": \"Fresnel Effect for the glow.\\nUse a gradient to
+    change the color.\\nUse sine time to change the intensity of the glow and the
+    gradient.\",\n    \"m_TextSize\": 0,\n    \"m_Theme\": 0,\n    \"m_Position\":
+    {\n        \"serializedVersion\": \"2\",\n        \"x\": -702.0,\n        \"y\":
+    150.0,\n        \"width\": 468.467529296875,\n        \"height\": 160.0\n   
+    },\n    \"m_Group\": {\n        \"m_Id\": \"\"\n    }\n}\n\n{\n    \"m_SGVersion\":
+    1,\n    \"m_Type\": \"UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty\",\n   
     \"m_ObjectId\": \"ad59edf6853f4425b64b1366307cdfff\",\n    \"m_Guid\": {\n       
     \"m_GuidSerialized\": \"e5233423-6764-49cd-80d9-6ec8214e2523\"\n    },\n    \"m_Name\":
     \"Sine Frequency\",\n    \"m_DefaultRefNameVersion\": 1,\n    \"m_RefNameGeneratedByDisplayName\":
@@ -947,13 +956,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity\Unity Hub\Editor\Computer Graphics\Computer-Graphics-Final\GitHub
     Computer Graphics Final
@@ -961,8 +970,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c26e0000
-    m_LastClickedID: 28354
+    m_SelectedIDs: 3c6d0000
+    m_LastClickedID: 27964
     m_ExpandedIDs: 000000003c6d00003e6d0000406d0000426d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1018,7 +1027,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1121,7 +1130,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 52020000
+      m_SelectedIDs: fa690000
       m_LastClickedID: 0
       m_ExpandedIDs: 18faffff
       m_RenameOverlay:
@@ -1490,11 +1499,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.36648893, y: -0.38482744, z: 0.170064, w: 0.83014613}
     speed: 2
-    m_Value: {x: 0.36739072, y: -0.3857249, z: 0.17115264, w: 0.82882273}
+    m_Value: {x: 0.36640272, y: -0.3847369, z: 0.170024, w: 0.8299508}
   m_Size:
     m_Target: 4.9632
     speed: 2
-    m_Value: 5.197068
+    m_Value: 4.9632
   m_Ortho:
     m_Target: 0
     speed: 2

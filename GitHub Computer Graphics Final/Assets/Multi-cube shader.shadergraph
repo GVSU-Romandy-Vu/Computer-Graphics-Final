@@ -83,6 +83,9 @@
     "m_StickyNoteDatas": [
         {
             "m_Id": "86b4d3e863ac4583a33aa2683243b1f2"
+        },
+        {
+            "m_Id": "a56148b6ee324eb38e8625d3e2325cd4"
         }
     ],
     "m_Edges": [
@@ -1275,6 +1278,26 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.Occlusion"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "a56148b6ee324eb38e8625d3e2325cd4",
+    "m_Title": "New Note",
+    "m_Content": "Fresnel Effect for the glow.\nUse a gradient to change the color.\nUse sine time to change the intensity of the glow and the gradient.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -702.0,
+        "y": 150.0,
+        "width": 468.467529296875,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
